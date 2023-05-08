@@ -87,7 +87,7 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin: 10%;
+   margin: 5%;
    color: white;
  }
  
@@ -97,7 +97,7 @@ body {
  
  #titulo-sobre-mi h2{
    font-size: 3rem;
-   margin-bottom: 1rem;
+   margin-bottom: 10px;
    font-family: 'Ramabhadra', sans-serif;
  }
 
