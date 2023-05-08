@@ -335,7 +335,7 @@ body {
  /*Proyecto*/
  #proyectos {
    text-align: center;
-   margin-bottom: 100px;
+   
  }
  
 
@@ -415,10 +415,7 @@ body {
    border-radius: 10px;
  }
  
- .modal-contenido {
- 
-  
-}
+
 
  
  #modal h2 {
@@ -471,3 +468,91 @@ footer {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
+
+
+
+
+/*Intereses*/
+#interests {
+  
+  padding: 40px 0;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  margin: 40px 0;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.card-intereses {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #221e1e;
+  
+}
+
+#interests h2 {
+  margin-top: 100px;
+  font-size: 36px;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #dfd3d3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-img-container {
+  height: 250px;
+  overflow: hidden;
+}
+
+.card-img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.card-info-intereses {
+  padding: 30px;
+  text-align: center;
+  
+}
+
+.card-info-intereses h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.card-info-intereses p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+
+}
+
+.fa-spotify, .fa-youtube{
+  
+  color: #a8a6a6;
+  font-size: 50px;
+}
+
